@@ -54,6 +54,19 @@ npm start
 - create api using sanity
 - using types into single file [`react-app.env.d.ts`](src/apps/react-app-env.d.ts)
 
+## Available Pages
+
+| routes | pages |
+| --- | --- |
+| `/` | homepage |
+| `*` | 404 page |
+| `/login` | login |
+| `/profile/:userId` | profile |
+| `/pins/create` | create pin |
+| `/pins/:pinId` | pin details |
+| `/category/:categoryId` | category |
+| `/search` | search |
+
 ## Inspired
 
 - [Build and Deploy a Modern Full Stack Social Media App FULL COURSE](https://www.youtube.com/watch?v=1RHDhtbqo94&t=7s)
