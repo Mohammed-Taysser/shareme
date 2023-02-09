@@ -5,6 +5,7 @@ Image Sharing Social Media App
 [demo](https://shareme-psi.vercel.app/), [api](https://shareme-psi.sanity.studio/)
 
 ![preview](assets/images/preview.png)
+![preview](assets/images/preview-1.png)
 
 ## Used tools
 
