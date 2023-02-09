@@ -5,6 +5,15 @@ declare module '*.mp4' {
 	export default src;
 }
 
+interface ErrorBoundaryProps {
+	children: ReactNode
+}
+
+interface ErrorBoundaryState {
+	error: Error | null
+	errorInfo: ErrorInfo | null
+}
+
 interface User {
 	_createdAt: Date;
 	_id: string;
