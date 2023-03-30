@@ -13,7 +13,7 @@ function SinglePin(props: { pin: Pin }) {
 	const userInfo = getUserInfo();
 
 	const isSaved = Boolean(
-		props.pin?.save?.filter((item) => item.postedBy._id === userInfo?._id)
+		props.pin?.save?.filter((item) => item?.postedBy?._id === userInfo?._id)
 			?.length
 	);
 
